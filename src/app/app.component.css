@@ -1,0 +1,93 @@
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    position: absolute;
+    background-size: 48px 48px;
+    height: 48px;
+    width: 48px;
+    color: transparent;
+}
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    position: absolute;
+    background-size: 48px 48px;
+    height: 48px;
+    width: 48px;
+    color: transparent;
+}
+
+.owl-nav .owl-prev {
+    left: 2%;
+    background: url(/static/website/img/slider-arrow-left.png?4557464df5fe) no-repeat;
+}
+
+
+
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "FlameSans";
+    line-height: 1.6;
+    color: #404040;
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+.index .owl-carousel, .index .owl-stage-outer, .index .owl-stage, .index .owl-item, .index .owl-carousel .item, .index .owl-carousel .item img {
+    height: 100%;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
+.index .owl-carousel, .index .owl-stage-outer, .index .owl-stage, .index .owl-item, .index .owl-carousel .item, .index .owl-carousel .item img {
+    height: 100%;
+}
+
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.menu-box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
