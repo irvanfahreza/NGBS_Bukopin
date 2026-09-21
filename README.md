@@ -1,3 +1,6 @@
+## Run the sql scripts
+Run the SQL scripts (sql_scripts.sql)
+
 ## Run the app
  
 ```bash
@@ -19,4 +22,5 @@ target/site/jacoco/index.html
 
 ## Postman
  
-Import `postman_collection.json` from the project root. It includes working request bodies for every endpoint, matching the dummy data from `data.sql`.
+Import `MyBoost.postman_collection.json` from the project root. 
+It includes working request bodies for every endpoint, matching the dummy data from `sql_scripts.sql`.
