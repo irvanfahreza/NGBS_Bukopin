@@ -1,5 +1,5 @@
 ## Run the sql scripts
-Run the SQL scripts (sql_scripts.sql)
+Run the SQL scripts 'sql_scripts.sql'
 
 ## Run the app
  
